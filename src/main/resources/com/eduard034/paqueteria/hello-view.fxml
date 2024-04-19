@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #132839;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eduard034.paqueteria.controllers.HelloController">
+   <children>
+      <Button layoutX="110.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#onClickAdministrador" prefHeight="66.0" prefWidth="154.0" style="-fx-background-color: #3C76B4; -fx-background-radius: 5em;" text="Administrador">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="373.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#onClickEmpaquetador" prefHeight="66.0" prefWidth="154.0" style="-fx-background-color: #B4823C; -fx-background-radius: 5em;" text="Empaquetador">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="629.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#onClickEmpleado" prefHeight="66.0" prefWidth="154.0" style="-fx-background-color: #B4823C; -fx-background-radius: 5em;" text="Empleado">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

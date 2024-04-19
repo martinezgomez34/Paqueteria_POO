@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #132839;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eduard034.paqueteria.controllers.reciboController">
+   <children>
+      <TableView fx:id="verListaR" layoutX="189.0" layoutY="29.0" prefHeight="355.0" prefWidth="399.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="44.0" text="ID" />
+          <TableColumn fx:id="descripcionColumn" prefWidth="148.0" text="Descripcion" />
+            <TableColumn fx:id="nombreColumn" prefWidth="134.0" text="Nombre" />
+            <TableColumn fx:id="fechaColumn" prefWidth="72.0" text="Fecha" />
+        </columns>
+      </TableView>
+      <TextField fx:id="fechaRText" layoutX="26.0" layoutY="175.0" />
+      <TextField fx:id="idText" layoutX="26.0" layoutY="68.0" />
+      <TextField fx:id="nombreRText" layoutX="26.0" layoutY="121.0" />
+      <Text fill="WHITE" layoutX="26.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
+      <Text fill="WHITE" layoutX="27.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del remitente" />
+      <Text fill="WHITE" layoutX="27.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha de recibido" />
+      <Button layoutX="38.0" layoutY="216.0" mnemonicParsing="false" onMouseClicked="#onClickAgregarR" text="Agregar" />
+      <Button layoutX="101.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#onClickActualizarR" text="Actualizar" />
+   </children>
+</AnchorPane>
